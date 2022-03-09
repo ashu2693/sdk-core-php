@@ -1,5 +1,5 @@
 {
-    "name": "ashu2693/mastercard-api-core",
+    "name": "ashu2693/master-card-api-core",
     "description": "This is the core or base package of the MasterCard Api, all different flavours of Api provided by MasterCard will reuse this package",
     "version": "1.4.7",
     "license": "BSD-3-Clause",
