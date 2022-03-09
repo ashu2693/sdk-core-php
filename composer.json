@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.1",
+        "guzzlehttp/guzzle": "^6.1|^7.0.1",
         "monolog/monolog": "^1.19"
     },
     "require-dev": {
