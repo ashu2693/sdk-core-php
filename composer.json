@@ -1,7 +1,6 @@
 {
     "name": "ashu2693/master-card-api-core",
     "description": "This is the core or base package of the MasterCard Api, all different flavours of Api provided by MasterCard will reuse this package",
-    "version": "dev-master",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -11,7 +10,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.1|^7.0.1",
+        "guzzlehttp/guzzle": "^6.1|^7.0",
         "monolog/monolog": "^1.19"
     },
     "require-dev": {
