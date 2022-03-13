@@ -11,19 +11,23 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.1|^7.0",
-        "monolog/monolog": "^1.19"
+        "monolog/monolog": "^2.0"
     },
     "require-dev": {
 	"phpunit/phpunit": "^5.7"
     },
-    "autoload": {
-        "psr-0": {
-            "MasterCard": ""
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ashu2693/sdk-core-php"
         }
+    ],
+    "autoload": {
+        "psr-0": {}
     },
     "autoload-dev": {
-        "psr-0": {
-            "MasterCard": ["MasterCard/", "Test/"]
-        }
+        "psr-0": {}
     }
 }
