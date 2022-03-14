@@ -25,9 +25,13 @@
         }
     ],
     "autoload": {
-        "psr-0": {}
+        "psr-0": {
+	    "MasterCard": ""
+	}
     },
     "autoload-dev": {
-        "psr-0": {}
+        "psr-0": {
+	"MasterCard": ["MasterCard/", "Test/"]
+	}
     }
 }
